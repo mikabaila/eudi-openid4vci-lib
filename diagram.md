@@ -22,7 +22,6 @@ classDiagram
     class CIAuthorizationServerMetadata
     class KtorHttpClientFactory
     class ResponseEncryptionSpecFactory
-
     Issuer --> AuthorizeIssuance
     Issuer --> RequestIssuance
     Issuer --> QueryForDeferredCredential
