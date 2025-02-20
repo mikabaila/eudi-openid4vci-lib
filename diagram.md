@@ -1,4 +1,4 @@
-''' mermaid
+``` mermaid
 classDiagram
     class Issuer {
         +CredentialOffer credentialOffer
@@ -38,6 +38,6 @@ classDiagram
     Issuer --> CIAuthorizationServerMetadata
     Issuer --> KtorHttpClientFactory
     Issuer --> ResponseEncryptionSpecFactory
-    '''
+    ```
 
     
